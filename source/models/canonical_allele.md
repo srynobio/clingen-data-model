@@ -10,6 +10,9 @@ A stable identifier for an allele, grouping together the different ways that all
 Scope and Usage
 ---------------
 
+Shawn did this
+--------------
+
 Variation at a genetic locus can be described using a set of alleles that may occur, located at a particular position on a reference sequence (see e.g. SimpleAllele).  However, ReferenceSequences are not completely stable; over time, new sequences are discovered and old sequences are modified.  If an Allele is defined against an old sequence, and against the new sequence, both position and reference allele may vary across these representations. Furthermore, if a genomic variant occurs in a transcript, the allele may be defined with respect to either the genomic sequence, or the transcript sequence.
 
 The problem of multiple representations of the same entity is compounded by the fact that none of these representations may be chosen as stable: any one of the reference sequences may be updated in the future, tying any preferred representation to an obsolete reference sequence.
